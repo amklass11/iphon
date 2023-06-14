@@ -4,14 +4,17 @@ import Jumbotron from './components/Jumbotron';
 import DisplaySection from './components/DisplaySection';
 import Webgiviewer from './components/Webgiviewer';
 
+
 function App() {
   return (
     <div className="App">
       <Nav />
       <Jumbotron />
+   
       <SoundSection />
       <DisplaySection />
       <Webgiviewer />
+  
 
     </div>
   );
